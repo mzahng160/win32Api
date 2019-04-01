@@ -39,5 +39,5 @@ CLock::CLock(const IMyLock& m) : m_lock(m)
 //利用C++特性，进行自动解锁
 CLock::~CLock()
 {
-	m_lock.Unlock();
+	m_lock.Unlock();	
 }
